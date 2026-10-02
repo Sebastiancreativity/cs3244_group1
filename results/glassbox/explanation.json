@@ -1,0 +1,381 @@
+{
+  "generated_utc": "2026-09-26T13:44:14Z",
+  "explained_model": "ebm.joblib",
+  "winner": "ebm_plus_rules",
+  "n_terms": 360,
+  "block_share": {
+    "SURFACE": 0.4766,
+    "LEXICAL": 0.373,
+    "SUBREDDIT": 0.0528,
+    "LEXICON": 0.0505,
+    "INTERACTION": 0.0471
+  },
+  "top_terms": [
+    {
+      "term": "n_chars",
+      "block": "SURFACE",
+      "feature_idx": 0,
+      "importance": 0.5633574103286393
+    },
+    {
+      "term": "parent_n_chars",
+      "block": "SURFACE",
+      "feature_idx": 18,
+      "importance": 0.3621649032682857
+    },
+    {
+      "term": "n_words",
+      "block": "SURFACE",
+      "feature_idx": 1,
+      "importance": 0.35046873113883287
+    },
+    {
+      "term": "len_ratio_to_parent",
+      "block": "SURFACE",
+      "feature_idx": 21,
+      "importance": 0.275323023769036
+    },
+    {
+      "term": "subreddit_rate",
+      "block": "SUBREDDIT",
+      "feature_idx": 338,
+      "importance": 0.18109040267791712
+    },
+    {
+      "term": "n_exclam",
+      "block": "SURFACE",
+      "feature_idx": 4,
+      "importance": 0.17554985751828425
+    },
+    {
+      "term": "parent_n_words",
+      "block": "SURFACE",
+      "feature_idx": 17,
+      "importance": 0.1746364452948103
+    },
+    {
+      "term": "avg_word_len",
+      "block": "SURFACE",
+      "feature_idx": 3,
+      "importance": 0.1654650827471985
+    },
+    {
+      "term": "starts_with_interjection",
+      "block": "SURFACE",
+      "feature_idx": 16,
+      "importance": 0.09034100312582032
+    },
+    {
+      "term": "subreddit_logfreq",
+      "block": "SUBREDDIT",
+      "feature_idx": 339,
+      "importance": 0.09003785549044081
+    },
+    {
+      "term": "has:because",
+      "block": "LEXICAL",
+      "feature_idx": 23,
+      "importance": 0.08890548413788506
+    },
+    {
+      "term": "parent_jaccard",
+      "block": "SURFACE",
+      "feature_idx": 20,
+      "importance": 0.0710096820090619
+    },
+    {
+      "term": "has:yeah",
+      "block": "LEXICAL",
+      "feature_idx": 22,
+      "importance": 0.06061312374823165
+    },
+    {
+      "term": "n_interjections",
+      "block": "SURFACE",
+      "feature_idx": 15,
+      "importance": 0.04800927608894311
+    },
+    {
+      "term": "has:so",
+      "block": "LEXICAL",
+      "feature_idx": 33,
+      "importance": 0.04481671597198847
+    },
+    {
+      "term": "has:obviously",
+      "block": "LEXICAL",
+      "feature_idx": 24,
+      "importance": 0.03996257079268807
+    },
+    {
+      "term": "has:all",
+      "block": "LEXICAL",
+      "feature_idx": 25,
+      "importance": 0.03905734915352185
+    },
+    {
+      "term": "parent_vader_mean",
+      "block": "LEXICON",
+      "feature_idx": 335,
+      "importance": 0.038514933307647055
+    },
+    {
+      "term": "vader_mean",
+      "block": "LEXICON",
+      "feature_idx": 332,
+      "importance": 0.035279706958573916
+    },
+    {
+      "term": "n_sentences",
+      "block": "SURFACE",
+      "feature_idx": 2,
+      "importance": 0.032962411991140826
+    },
+    {
+      "term": "n_repeat_punct",
+      "block": "SURFACE",
+      "feature_idx": 7,
+      "importance": 0.03259729653231032
+    },
+    {
+      "term": "has:it",
+      "block": "LEXICAL",
+      "feature_idx": 30,
+      "importance": 0.031990015753942204
+    },
+    {
+      "term": "n_question",
+      "block": "SURFACE",
+      "feature_idx": 5,
+      "importance": 0.03198393487141043
+    },
+    {
+      "term": "has:totally",
+      "block": "LEXICAL",
+      "feature_idx": 26,
+      "importance": 0.030805492452279266
+    },
+    {
+      "term": "n_chars x n_exclam",
+      "block": "INTERACTION",
+      "feature_idx": -1,
+      "importance": 0.028093086576171173
+    },
+    {
+      "term": "has:no",
+      "block": "LEXICAL",
+      "feature_idx": 34,
+      "importance": 0.027654811208469
+    },
+    {
+      "term": "has:yes",
+      "block": "LEXICAL",
+      "feature_idx": 27,
+      "importance": 0.026677205826140575
+    },
+    {
+      "term": "allcaps_ratio",
+      "block": "SURFACE",
+      "feature_idx": 9,
+      "importance": 0.02637136141555281
+    },
+    {
+      "term": "n_scare_quotes",
+      "block": "SURFACE",
+      "feature_idx": 11,
+      "importance": 0.026292566870654406
+    },
+    {
+      "term": "has:not",
+      "block": "LEXICAL",
+      "feature_idx": 142,
+      "importance": 0.024771810401891105
+    },
+    {
+      "term": "has:clearly",
+      "block": "LEXICAL",
+      "feature_idx": 29,
+      "importance": 0.024728683469196468
+    },
+    {
+      "term": "has:we",
+      "block": "LEXICAL",
+      "feature_idx": 28,
+      "importance": 0.024697060900117408
+    },
+    {
+      "term": "nrc_positive",
+      "block": "LEXICON",
+      "feature_idx": 330,
+      "importance": 0.02455556271006826
+    },
+    {
+      "term": "has:but",
+      "block": "LEXICAL",
+      "feature_idx": 66,
+      "importance": 0.023850441337258943
+    },
+    {
+      "term": "has:only",
+      "block": "LEXICAL",
+      "feature_idx": 63,
+      "importance": 0.023284580855276227
+    },
+    {
+      "term": "nrc_disgust",
+      "block": "LEXICON",
+      "feature_idx": 324,
+      "importance": 0.023283058062409167
+    },
+    {
+      "term": "has:or",
+      "block": "LEXICAL",
+      "feature_idx": 38,
+      "importance": 0.02261251077477412
+    },
+    {
+      "term": "len_ratio_to_parent x but",
+      "block": "INTERACTION",
+      "feature_idx": -1,
+      "importance": 0.022068159406426095
+    },
+    {
+      "term": "n_chars x but",
+      "block": "INTERACTION",
+      "feature_idx": -1,
+      "importance": 0.02203404942374688
+    },
+    {
+      "term": "incongruity_signed",
+      "block": "LEXICON",
+      "feature_idx": 337,
+      "importance": 0.02084490857382343
+    }
+  ],
+  "n_rules": 80,
+  "top_sarcasm_rules": [
+    {
+      "rule": "n_interjections > 0.5 AND contains 'obviously' AND no 'but'",
+      "coverage": 0.0106,
+      "sarcasm_rate": 0.9185,
+      "n": 638
+    },
+    {
+      "rule": "n_interjections > 0.5 AND contains 'because' AND n_words <= 19.5",
+      "coverage": 0.0119,
+      "sarcasm_rate": 0.905,
+      "n": 716
+    },
+    {
+      "rule": "n_interjections > 0.5 AND contains 'because' AND n_words <= 26.5",
+      "coverage": 0.0143,
+      "sarcasm_rate": 0.8978,
+      "n": 861
+    },
+    {
+      "rule": "no 'because' AND n_exclam > 0.5 AND contains 'but'",
+      "coverage": 0.013,
+      "sarcasm_rate": 0.8936,
+      "n": 780
+    },
+    {
+      "rule": "starts_with_interjection <= 0.5 AND n_exclam > 0.5 AND contains 'but'",
+      "coverage": 0.0126,
+      "sarcasm_rate": 0.8904,
+      "n": 757
+    },
+    {
+      "rule": "subreddit_rate > 0.564 AND n_exclam > 0.5 AND n_chars > 41.5",
+      "coverage": 0.0168,
+      "sarcasm_rate": 0.8836,
+      "n": 1005
+    },
+    {
+      "rule": "starts_with_interjection > 0.5 AND avg_word_len > 4.36 AND contains 'yeah'",
+      "coverage": 0.0209,
+      "sarcasm_rate": 0.8711,
+      "n": 1257
+    },
+    {
+      "rule": "subreddit_rate > 0.536 AND n_exclam > 0.5 AND n_words > 5.5",
+      "coverage": 0.0313,
+      "sarcasm_rate": 0.8573,
+      "n": 1878
+    },
+    {
+      "rule": "starts_with_interjection > 0.5 AND contains 'yeah' AND no 'but'",
+      "coverage": 0.0358,
+      "sarcasm_rate": 0.8261,
+      "n": 2151
+    },
+    {
+      "rule": "contains 'because' AND no 'it' AND n_words <= 15.5",
+      "coverage": 0.0292,
+      "sarcasm_rate": 0.8189,
+      "n": 1750
+    },
+    {
+      "rule": "n_interjections > 0.5 AND starts_with_interjection > 0.5 AND contains 'yeah'",
+      "coverage": 0.0413,
+      "sarcasm_rate": 0.8123,
+      "n": 2477
+    },
+    {
+      "rule": "subreddit_rate > 0.561 AND parent_jaccard <= 0.0955 AND contains 'because'",
+      "coverage": 0.0128,
+      "sarcasm_rate": 0.8075,
+      "n": 769
+    }
+  ],
+  "top_sincerity_rules": [
+    {
+      "rule": "subreddit_rate > 0.434 AND subreddit_logfreq <= 2.52 AND avg_word_len <= 4.26",
+      "coverage": 0.0427,
+      "sarcasm_rate": 0.3408,
+      "n": 2559
+    },
+    {
+      "rule": "no 'all' AND no 'totally' AND n_words > 24.5",
+      "coverage": 0.0498,
+      "sarcasm_rate": 0.3359,
+      "n": 2986
+    },
+    {
+      "rule": "subreddit_rate <= 0.536 AND starts_with_interjection <= 0.5 AND n_words > 18.5",
+      "coverage": 0.067,
+      "sarcasm_rate": 0.3249,
+      "n": 4020
+    },
+    {
+      "rule": "no 'because' AND n_exclam <= 0.5 AND n_words > 23.5",
+      "coverage": 0.0558,
+      "sarcasm_rate": 0.3247,
+      "n": 3348
+    },
+    {
+      "rule": "n_chars > 22.5 AND n_words > 20.5 AND contains 'but'",
+      "coverage": 0.0208,
+      "sarcasm_rate": 0.2842,
+      "n": 1249
+    },
+    {
+      "rule": "no 'all' AND parent_jaccard > 0.0958 AND n_words > 25.5",
+      "coverage": 0.0166,
+      "sarcasm_rate": 0.2744,
+      "n": 995
+    },
+    {
+      "rule": "subreddit_rate <= 0.564 AND parent_jaccard > 0.0843 AND n_words > 27.5",
+      "coverage": 0.0131,
+      "sarcasm_rate": 0.2446,
+      "n": 785
+    },
+    {
+      "rule": "subreddit_rate <= 0.564 AND n_words > 22.5 AND contains 'but'",
+      "coverage": 0.0129,
+      "sarcasm_rate": 0.2284,
+      "n": 775
+    }
+  ],
+  "note": "EBM term importances are exact decompositions of the fitted model, not post-hoc attribution estimates. They describe the model, which is not the same as describing sarcasm."
+}

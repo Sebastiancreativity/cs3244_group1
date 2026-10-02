@@ -1,0 +1,7 @@
+model,point,thr,roc_auc,accuracy,precision,recall,f1,pr_auc
+ebm_plus_rules,@threshold,0.5412,0.7625,0.6887,0.7544,0.5788,0.6551,0.7816
+ebm_plus_rules,@0.50,0.5,0.7625,0.6909,0.7246,0.6368,0.6779,0.7816
+ebm,@threshold,0.5434,0.76205,0.6887,0.7545,0.5788,0.655,0.7812
+ebm,@0.50,0.5,0.76205,0.6915,0.7231,0.6416,0.6799,0.7812
+"LightGBM (Person 4, black box)",@0.50,0.5,0.7803,0.7059,0.7285,0.676,0.7013,
+majority baseline,—,,0.5,0.5107,,,,

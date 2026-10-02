@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "C:\Users\unshe\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 397, in main
+    cache[rtype][name] -= 1
+    ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\unshe\\AppData\\Local\\Temp\\joblib_memmapping_folder_19872_884865cb1ec64c968ba71e8d6e0e5ecd_b86b5bbda47e4904ab1aea4efcc44d57\\19872-2250989342592-3c34460d751c4eed9a339db49bc6eb3c.pkl'
+Traceback (most recent call last):
+  File "C:\Users\unshe\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 397, in main
+    cache[rtype][name] -= 1
+    ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\unshe\\AppData\\Local\\Temp\\joblib_memmapping_folder_19872_884865cb1ec64c968ba71e8d6e0e5ecd_b86b5bbda47e4904ab1aea4efcc44d57\\19872-2250989342592-99b6023f3ec04be2b8e897c7b47aa74b.pkl'
+Traceback (most recent call last):
+  File "C:\Users\unshe\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 397, in main
+    cache[rtype][name] -= 1
+    ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\unshe\\AppData\\Local\\Temp\\joblib_memmapping_folder_19872_884865cb1ec64c968ba71e8d6e0e5ecd_a256bf3b5b584abcb1dc72abff37a41b\\19872-2250989342592-d87dc3d49f4f43a9921a417e756fa02d.pkl'
+Traceback (most recent call last):
+  File "C:\Users\unshe\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 397, in main
+    cache[rtype][name] -= 1
+    ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\unshe\\AppData\\Local\\Temp\\joblib_memmapping_folder_19872_884865cb1ec64c968ba71e8d6e0e5ecd_a256bf3b5b584abcb1dc72abff37a41b\\19872-2250989342592-827306440a33421b8209376be145b3c3.pkl'

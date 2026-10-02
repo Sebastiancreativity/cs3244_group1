@@ -1,0 +1,101 @@
+{
+  "generated_utc": "2026-09-26T13:42:35Z",
+  "selection_metric": "roc_auc",
+  "train_rows": 200000,
+  "val_rows": 60000,
+  "n_features": 340,
+  "n_mined_rules": 80,
+  "leaderboard": [
+    {
+      "model": "ebm_plus_rules",
+      "roc_auc": 0.76082,
+      "accuracy": 0.6909,
+      "precision": 0.7198,
+      "recall": 0.6392,
+      "f1": 0.6771,
+      "complexity": "430 terms, incl. mined rule indicators",
+      "seconds": 277.4,
+      "params": "{'interactions': 10, 'max_bins': 256, 'learning_rate': 0.02}"
+    },
+    {
+      "model": "ebm",
+      "roc_auc": 0.7604,
+      "accuracy": 0.6906,
+      "precision": 0.7173,
+      "recall": 0.6433,
+      "f1": 0.6783,
+      "complexity": "360 terms (340 main effects, 20 interactions)",
+      "seconds": 338.7,
+      "params": "{'interactions': 20, 'max_bins': 512, 'learning_rate': 0.01}"
+    },
+    {
+      "model": "ebm_rulefit_avg",
+      "roc_auc": 0.74558,
+      "accuracy": 0.6619,
+      "precision": 0.7742,
+      "recall": 0.4702,
+      "f1": 0.5851,
+      "complexity": "avg of [360 terms (340 main effects, 20 interactions)] and [27 rules kept]",
+      "seconds": 0.0,
+      "params": "{'weight': 0.5}"
+    },
+    {
+      "model": "rulefit",
+      "roc_auc": 0.69731,
+      "accuracy": 0.6175,
+      "precision": 0.7631,
+      "recall": 0.3559,
+      "f1": 0.4855,
+      "complexity": "27 rules kept",
+      "seconds": 352.9,
+      "params": "{'max_rules': 60, 'tree_size': 4}"
+    },
+    {
+      "model": "figs",
+      "roc_auc": 0.68918,
+      "accuracy": 0.6328,
+      "precision": 0.6367,
+      "recall": 0.642,
+      "f1": 0.6393,
+      "complexity": "{'max_rules': 20}",
+      "seconds": 216.9,
+      "params": "{'max_rules': 20}"
+    },
+    {
+      "model": "boosted_rules",
+      "roc_auc": 0.67894,
+      "accuracy": 0.6269,
+      "precision": 0.6403,
+      "recall": 0.6024,
+      "f1": 0.6208,
+      "complexity": "{'n_estimators': 80}",
+      "seconds": 51.9,
+      "params": "{'n_estimators': 80}"
+    },
+    {
+      "model": "decision_tree_d4",
+      "roc_auc": 0.66724,
+      "accuracy": 0.6144,
+      "precision": 0.6033,
+      "recall": 0.6992,
+      "f1": 0.6477,
+      "complexity": "56 leaves, depth 6",
+      "seconds": 3.2,
+      "params": "{'max_depth': 6}"
+    },
+    {
+      "model": "skope_rules",
+      "roc_auc": 0.6606,
+      "accuracy": 0.493,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "complexity": "{'n_estimators': 40, 'max_depth': 4}",
+      "seconds": 49.6,
+      "params": "{'n_estimators': 40, 'max_depth': 4}"
+    }
+  ],
+  "winner": "ebm_plus_rules",
+  "winner_params": "{'interactions': 10, 'max_bins': 256, 'learning_rate': 0.02}",
+  "test_touched": false
+}

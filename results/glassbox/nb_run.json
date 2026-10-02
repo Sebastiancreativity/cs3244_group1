@@ -1,0 +1,28 @@
+{
+  "generated_utc": "2026-09-27T06:55:45Z",
+  "quick_mode": false,
+  "seed": 3244,
+  "versions": {
+    "interpret": "0.7.8",
+    "imodels": "3.0.1",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "joblib": "1.6.0",
+    "python": "3.12.10"
+  },
+  "train_rows": 200000,
+  "val_rows": 60000,
+  "test_rows": 137065,
+  "n_features": 340,
+  "n_rules": 80,
+  "winner": "ebm_plus_rules",
+  "threshold": 0.5412,
+  "block_share": {
+    "INTERACTION": 0.0471,
+    "LEXICAL": 0.373,
+    "LEXICON": 0.0505,
+    "SUBREDDIT": 0.0528,
+    "SURFACE": 0.4766
+  }
+}
