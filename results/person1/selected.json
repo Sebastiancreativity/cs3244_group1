@@ -1,0 +1,24 @@
+{
+  "MNB": {
+    "params": {
+      "alpha": 1.0
+    },
+    "ngram_max": 2,
+    "val_roc_auc": 0.7770739936127524
+  },
+  "CNB": {
+    "params": {
+      "alpha": 1.0
+    },
+    "ngram_max": 2,
+    "val_roc_auc": 0.7770739936127524
+  },
+  "LR": {
+    "params": {
+      "C": 1.0,
+      "penalty": "l2"
+    },
+    "ngram_max": 2,
+    "val_roc_auc": 0.7913867933042598
+  }
+}

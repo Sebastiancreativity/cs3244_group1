@@ -1,0 +1,192 @@
+[
+  {
+    "path": "artifacts/person1/best_lr.json",
+    "bytes": 174,
+    "sha256": "ef4db2fa9c890aebd26f3bcfadc9c5108472e8fd2109c9f51de95907ade50aa5"
+  },
+  {
+    "path": "artifacts/person1/best_lr_pipeline.joblib",
+    "bytes": 5649217,
+    "sha256": "4286ad6989d7db4f4f04b84b41c2c82d82016696632e9fbb2f1a8609ba4ea424"
+  },
+  {
+    "path": "artifacts/person1/models.json",
+    "bytes": 8901,
+    "sha256": "7044a39ad6bc8a6f1da7cbc7c1c5d810b0da76dba3b4e2f04f8ca0eca358e652"
+  },
+  {
+    "path": "artifacts/person1/sarc_random_ng2_vectorizer.joblib",
+    "bytes": 3345331,
+    "sha256": "cd1284c179659e2a5a0582b53dd88d0c28d7d06d6e2b047e3a0430b3277b446d"
+  },
+  {
+    "path": "artifacts/person1/sarc_random_surface.joblib",
+    "bytes": 985,
+    "sha256": "0847485a4ce05610817539f6f231f03509e74649c382dd9e7ae1b1254e45b4b7"
+  },
+  {
+    "path": "artifacts/person1/sarc_subreddit_ng2_vectorizer.joblib",
+    "bytes": 3341490,
+    "sha256": "5814e91c5d830f03375393cc1fafbf83715f525785ff63b0a01a9e978502e671"
+  },
+  {
+    "path": "artifacts/person1/sarc_subreddit_surface.joblib",
+    "bytes": 987,
+    "sha256": "14f79de6a21add3698efe1b2c23589c6dc6dc8fbd77158197881f51989a81504"
+  },
+  {
+    "path": "artifacts/person1/sarc_temporal_ng2_vectorizer.joblib",
+    "bytes": 2648046,
+    "sha256": "3c6e9c4276ee130a539f7d2249890c13131bffd8972c408a7f8f24f06870035f"
+  },
+  {
+    "path": "artifacts/person1/sarc_temporal_surface.joblib",
+    "bytes": 993,
+    "sha256": "45b9bb93e608267162bdfc38b6a039c40a43247138a9d14c37e86e46528a0d42"
+  },
+  {
+    "path": "artifacts/person1/weights_2c856eeb4506c910d52fbdc1.npz",
+    "bytes": 1795723,
+    "sha256": "836ada7722a6ac3148382a837242dba7794b66d42ed52aace1571641f6414ecb"
+  },
+  {
+    "path": "artifacts/person1/weights_2cb3711be852e6ef8556041a.npz",
+    "bytes": 2237530,
+    "sha256": "924a4b96b52d609a3e18b733481e7c087e0235859fa732cab5e616bbc25c75e9"
+  },
+  {
+    "path": "artifacts/person1/weights_40d9b5ffd3a2b4d17213312a.npz",
+    "bytes": 1837389,
+    "sha256": "0b1e464d55636bb6157a89900aa89feb21b9809c888d8dda6248d106308ed4a4"
+  },
+  {
+    "path": "artifacts/person1/weights_5d17cf9dd832fc1af335fdbd.npz",
+    "bytes": 1837469,
+    "sha256": "f907000d298815f0fd5ea093b3c09267ff7619151946ebea23b65ffcd782d0f0"
+  },
+  {
+    "path": "artifacts/person1/weights_63943e579ee95d918eb82bf6.npz",
+    "bytes": 2240721,
+    "sha256": "fe9e45568a56b08010f098cfab7692312c5a63b58859561caf1351b7a1c45968"
+  },
+  {
+    "path": "artifacts/person1/weights_8599fa7748ec7629de13dcd8.npz",
+    "bytes": 1795658,
+    "sha256": "6103b0161fea8a756719a65e23df88589d66aac492e8a82ea12efd1a197c3772"
+  },
+  {
+    "path": "artifacts/person1/weights_87221bdad70b678ac450c555.npz",
+    "bytes": 1795307,
+    "sha256": "c053436954ac0d4824b124ed8f5e7f2d93797a6cb2d8cd49b78d3e0058805965"
+  },
+  {
+    "path": "artifacts/person1/weights_918ec97cd36dcd93b181895b.npz",
+    "bytes": 2237221,
+    "sha256": "22470f305d83e0859104ab6a76dbd984c3c0301bf45d441d5c7f23e951344776"
+  },
+  {
+    "path": "artifacts/person1/weights_9bedfefa35025f1d9ace0943.npz",
+    "bytes": 2290142,
+    "sha256": "24a2b8395f80f145a30886f2efa1f38ba1b4d1406077af150010c810fc6fa782"
+  },
+  {
+    "path": "artifacts/person1/weights_a95a4dc55ba23dd113b596aa.npz",
+    "bytes": 1795476,
+    "sha256": "0af7081eaf5e4f933e7a81c1c5d30cc6e071d49a7b981128dba1fda5bb24c753"
+  },
+  {
+    "path": "artifacts/person1/weights_aaee2cad57aee7324cf3633f.npz",
+    "bytes": 2292836,
+    "sha256": "ae237c4d33e256d5fd503248b9e0e476f0fb4387188466b486e6c5d1047193b2"
+  },
+  {
+    "path": "artifacts/person1/weights_ae52ee152e4a55296bebeae0.npz",
+    "bytes": 2292973,
+    "sha256": "6f932cdb20028e4af9a02785646a444a10822e4a2e1bc5a85a83578ce0614706"
+  },
+  {
+    "path": "artifacts/person1/weights_b050bb336683dc60bb98cf7f.npz",
+    "bytes": 2240848,
+    "sha256": "ae5720ac97b8b0afdf927a88f443a0daa80de0804fcc227e206e97e04a8f61dc"
+  },
+  {
+    "path": "artifacts/person1/weights_b9a5955676d5f31cd1ffe495.npz",
+    "bytes": 2240521,
+    "sha256": "9944a9ae61a06bf62cd4f3c7b81f1f11bd32e58649654a1601c6994dd5396a50"
+  },
+  {
+    "path": "artifacts/person1/weights_b9fc7fcc1fb5a45efde72c16.npz",
+    "bytes": 2240568,
+    "sha256": "f9b8c2ae2fc609db60a902be53c11f0f0be2cb9d108905565426205623d9241f"
+  },
+  {
+    "path": "artifacts/person1/weights_c63a9971433de2d0cc41219f.npz",
+    "bytes": 2237674,
+    "sha256": "5b1cbb5d019ac65a2e492064b91f557248cd74ffe2c7f02e2de718b470b43fb7"
+  },
+  {
+    "path": "artifacts/person1/weights_d4a5fd8bb600d23a93d83907.npz",
+    "bytes": 2237547,
+    "sha256": "bee0daa55ee13e3dd287f68bc9518fbde28dd07574054573e3e16b741e9d617c"
+  },
+  {
+    "path": "artifacts/person1/weights_eb2210f0f2b2a391d895f180.npz",
+    "bytes": 2289971,
+    "sha256": "0a60c7fb03264000dd4132be0788ccf79084a46705f655dcb3420dc51d9255d5"
+  },
+  {
+    "path": "results/person1/ensemble_predictions/figlang_reddit__test.parquet",
+    "bytes": 75757,
+    "sha256": "c3d144f68a029f553a189dc036ba3b01d93eae211fb872733bd112c471933b85"
+  },
+  {
+    "path": "results/person1/ensemble_predictions/figlang_twitter__test.parquet",
+    "bytes": 74059,
+    "sha256": "c6326881c6030216a1a60f64f6fb1500871c861ca9ad3ff323c9980fbc8e65bc"
+  },
+  {
+    "path": "results/person1/ensemble_predictions/index.json",
+    "bytes": 3464,
+    "sha256": "d1a8228df0076a10729361ca89b926011332ea58dc4150409ede2f20de0fdff4"
+  },
+  {
+    "path": "results/person1/ensemble_predictions/news_headlines__test.parquet",
+    "bytes": 182334,
+    "sha256": "2fb551630f6064ec41f6aa2f26c64381449390db03717ef9fd641319e22b77d0"
+  },
+  {
+    "path": "results/person1/ensemble_predictions/sarc_random__test.parquet",
+    "bytes": 10783083,
+    "sha256": "4625bbca458f454788d0798976871025025740052170289bae26e133205934ac"
+  },
+  {
+    "path": "results/person1/ensemble_predictions/sarc_random__val.parquet",
+    "bytes": 10783924,
+    "sha256": "614a699f79fc19360c5903e1d00cbd3376a58e14bf49981a3b63325f95192e5b"
+  },
+  {
+    "path": "results/person1/ensemble_predictions/sarc_subreddit__test.parquet",
+    "bytes": 10687027,
+    "sha256": "acba4ee9804cc63b5d10b51f9f49066a5cfe2de2f675c92d58a0c47fd9f0154f"
+  },
+  {
+    "path": "results/person1/ensemble_predictions/sarc_subreddit__val.parquet",
+    "bytes": 10658759,
+    "sha256": "785679d72f4ae327b1a7be9f5b1785e279522ff8f47871ef041ac34005b37e75"
+  },
+  {
+    "path": "results/person1/ensemble_predictions/sarc_temporal__test.parquet",
+    "bytes": 17576961,
+    "sha256": "3cfd6b4c7472b74d2d9287ad464d732983cda562c5ead0050389405421c9a72d"
+  },
+  {
+    "path": "results/person1/ensemble_predictions/sarc_temporal__val.parquet",
+    "bytes": 13715522,
+    "sha256": "a7588e535ef6178f1074927c5307004edd0ccdf53e58b464cddb8cbb6fda1e01"
+  },
+  {
+    "path": "results/person1/ensemble_predictions/tweeteval_irony__test.parquet",
+    "bytes": 35229,
+    "sha256": "c1de1c89c2439d3588c0ab5b2769cab7130d70d5506c81b133a52ea3f8bc2fb9"
+  }
+]

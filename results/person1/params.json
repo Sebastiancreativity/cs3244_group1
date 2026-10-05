@@ -1,0 +1,158 @@
+{
+  "seed": 3244,
+  "selection_metric": "source_validation_roc_auc",
+  "search_budget": 20,
+  "search_grid": {
+    "MNB": [
+      {
+        "alpha": 0.1
+      },
+      {
+        "alpha": 1.0
+      },
+      {
+        "alpha": 10.0
+      }
+    ],
+    "CNB": [
+      {
+        "alpha": 0.1
+      },
+      {
+        "alpha": 1.0
+      },
+      {
+        "alpha": 10.0
+      }
+    ],
+    "LR": [
+      {
+        "C": 0.1,
+        "penalty": "l2"
+      },
+      {
+        "C": 1.0,
+        "penalty": "l2"
+      },
+      {
+        "C": 10.0,
+        "penalty": "l2"
+      },
+      {
+        "C": 1.0,
+        "penalty": "l1"
+      }
+    ]
+  },
+  "ngram_max_candidates": [
+    1,
+    2
+  ],
+  "selected_text_models": {
+    "MNB": {
+      "params": {
+        "alpha": 1.0
+      },
+      "ngram_max": 2,
+      "val_roc_auc": 0.7770739936127524
+    },
+    "CNB": {
+      "params": {
+        "alpha": 1.0
+      },
+      "ngram_max": 2,
+      "val_roc_auc": 0.7770739936127524
+    },
+    "LR": {
+      "params": {
+        "C": 1.0,
+        "penalty": "l2"
+      },
+      "ngram_max": 2,
+      "val_roc_auc": 0.7913867933042598
+    }
+  },
+  "tfidf_bigram_parameters": {
+    "analyzer": "word",
+    "binary": false,
+    "decode_error": "strict",
+    "dtype": "float64",
+    "encoding": "utf-8",
+    "input": "content",
+    "lowercase": true,
+    "max_df": 1.0,
+    "max_features": null,
+    "min_df": 3,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "norm": "l2",
+    "preprocessor": null,
+    "smooth_idf": true,
+    "stop_words": null,
+    "strip_accents": null,
+    "sublinear_tf": true,
+    "token_pattern": "(?u)\\b\\w\\w+\\b",
+    "tokenizer": null,
+    "use_idf": true,
+    "vocabulary": null
+  },
+  "lr_fixed": {
+    "solver": "liblinear",
+    "max_iter": 1000,
+    "tol": 0.0001,
+    "random_state": 3244
+  },
+  "nb_fixed": {
+    "fit_prior": true,
+    "complement_norm": false
+  },
+  "surface_columns": [
+    "n_chars",
+    "n_words",
+    "n_sentences",
+    "avg_word_len",
+    "n_exclam",
+    "n_question",
+    "n_ellipsis",
+    "n_repeat_punct",
+    "n_allcaps_words",
+    "allcaps_ratio",
+    "n_elongation",
+    "n_scare_quotes",
+    "n_urls",
+    "n_mentions",
+    "n_hashtags",
+    "n_interjections",
+    "starts_with_interjection"
+  ],
+  "surface_transform": {
+    "count_log1p": true,
+    "scaler": "StandardScaler",
+    "with_mean": false,
+    "word_bin_upper_bounds": [
+      3,
+      6,
+      8,
+      12,
+      20,
+      40,
+      null
+    ]
+  },
+  "surface_ablation": "frozen selected text hyperparameters",
+  "threshold": {
+    "precision_target": 0.75,
+    "selection_split": "sarc_random/val",
+    "criterion": "max recall subject to target precision; sentinel excluded",
+    "stress_and_transfer": "reuse numeric source-validation threshold"
+  },
+  "final_fit": "own split train only; no train+val merge",
+  "transfer_targets": [
+    "figlang_reddit",
+    "figlang_twitter",
+    "tweeteval_irony",
+    "news_headlines"
+  ]
+}

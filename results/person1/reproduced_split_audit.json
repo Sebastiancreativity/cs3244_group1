@@ -1,0 +1,353 @@
+{
+  "generated_utc": "2026-10-03T17:29:12Z",
+  "audit": [
+    {
+      "dataset": "sarc_random",
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "text overlap train/val",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "text overlap train/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "text overlap val/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "parent-thread overlap train/val",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "parent-thread overlap train/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "parent-thread overlap val/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "splits": {
+        "train": {
+          "rows": 639638,
+          "sarcastic_pct": 50.91
+        },
+        "val": {
+          "rows": 137066,
+          "sarcastic_pct": 50.91
+        },
+        "test": {
+          "rows": 137065,
+          "sarcastic_pct": 51.07
+        }
+      },
+      "author_note": "78,836 authors appear in both train and test (84% of test authors) — inherent to SARC, disclose in the report"
+    },
+    {
+      "dataset": "sarc_subreddit",
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "text overlap train/val",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "text overlap train/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "text overlap val/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "parent-thread overlap train/val",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "parent-thread overlap train/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "parent-thread overlap val/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "subreddit overlap train/val",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "subreddit overlap train/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "subreddit overlap val/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "splits": {
+        "train": {
+          "rows": 639838,
+          "sarcastic_pct": 51.11
+        },
+        "val": {
+          "rows": 135123,
+          "sarcastic_pct": 51.19
+        },
+        "test": {
+          "rows": 135534,
+          "sarcastic_pct": 49.93
+        }
+      },
+      "author_note": "55,446 authors appear in both train and test (72% of test authors) — inherent to SARC, disclose in the report"
+    },
+    {
+      "dataset": "sarc_temporal",
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "text overlap train/val",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "text overlap train/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "text overlap val/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "parent-thread overlap train/val",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "parent-thread overlap train/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "parent-thread overlap val/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "splits": {
+        "train": {
+          "rows": 484447,
+          "sarcastic_pct": 53.82
+        },
+        "val": {
+          "rows": 182441,
+          "sarcastic_pct": 50.38
+        },
+        "test": {
+          "rows": 242091,
+          "sarcastic_pct": 45.79
+        }
+      },
+      "author_note": "41,379 authors appear in both train and test (36% of test authors) — inherent to SARC, disclose in the report"
+    },
+    {
+      "dataset": "figlang_reddit",
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "text overlap train/val",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "text overlap train/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "text overlap val/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "splits": {
+        "train": {
+          "rows": 3729,
+          "sarcastic_pct": 49.99
+        },
+        "val": {
+          "rows": 659,
+          "sarcastic_pct": 50.08
+        },
+        "test": {
+          "rows": 1756,
+          "sarcastic_pct": 49.72
+        }
+      },
+      "author_note": ""
+    },
+    {
+      "dataset": "figlang_twitter",
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "text overlap train/val",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "text overlap train/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "text overlap val/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "splits": {
+        "train": {
+          "rows": 4028,
+          "sarcastic_pct": 52.61
+        },
+        "val": {
+          "rows": 711,
+          "sarcastic_pct": 52.6
+        },
+        "test": {
+          "rows": 1715,
+          "sarcastic_pct": 47.52
+        }
+      },
+      "author_note": ""
+    },
+    {
+      "dataset": "news_headlines",
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "text overlap train/val",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "text overlap train/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "text overlap val/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "splits": {
+        "train": {
+          "rows": 19862,
+          "sarcastic_pct": 47.51
+        },
+        "val": {
+          "rows": 4256,
+          "sarcastic_pct": 47.51
+        },
+        "test": {
+          "rows": 4257,
+          "sarcastic_pct": 47.52
+        }
+      },
+      "author_note": ""
+    },
+    {
+      "dataset": "tweeteval_irony",
+      "status": "PASS",
+      "checks": [
+        {
+          "check": "text overlap train/val",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "text overlap train/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "text overlap val/test",
+          "overlap": 0,
+          "status": "PASS",
+          "detail": ""
+        }
+      ],
+      "splits": {
+        "train": {
+          "rows": 2853,
+          "sarcastic_pct": 50.54
+        },
+        "val": {
+          "rows": 950,
+          "sarcastic_pct": 48.0
+        },
+        "test": {
+          "rows": 780,
+          "sarcastic_pct": 39.74
+        }
+      },
+      "author_note": ""
+    }
+  ],
+  "reference_floor": [],
+  "cross_corpus_transfer": [],
+  "audit_failures": 0
+}

@@ -1,0 +1,4 @@
+# The exact same probabilities are delivered in compact ensemble_predictions/.
+predictions/
+# Reproducible from delivered fitted weights; top coefficients are committed.
+*__all_weights.csv.gz

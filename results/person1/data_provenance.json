@@ -1,0 +1,117 @@
+{
+  "source_commit": "e894158eb8cf4fc29273a68bb65caa018517f2b6",
+  "source_branch": "python_nb_ver2",
+  "source_checksums_match": true,
+  "files": [
+    {
+      "path": "data/splits/primary/sarc_random/test.parquet",
+      "bytes": 27268699,
+      "sha256": "0d06618226bc6a20a270e707a5902a4c02249fd8942de6a5df176b68af98c318"
+    },
+    {
+      "path": "data/splits/primary/sarc_random/train.parquet",
+      "bytes": 126122084,
+      "sha256": "536985ba5d52b5a48bb51cf91789f2e2f4302db807d3f7412f051e38953ed8cb"
+    },
+    {
+      "path": "data/splits/primary/sarc_random/val.parquet",
+      "bytes": 27212232,
+      "sha256": "4216e512f4a7586a1d8d18065720eea542fbaebe8708a49c33678e6ed52f644c"
+    },
+    {
+      "path": "data/splits/primary/sarc_subreddit/test.parquet",
+      "bytes": 26527417,
+      "sha256": "86338e3529d5d73b1b0f085be7043d05a8fd0050e33c7d9ae7bd696f7e8a01ce"
+    },
+    {
+      "path": "data/splits/primary/sarc_subreddit/train.parquet",
+      "bytes": 126288235,
+      "sha256": "2af22b9e38d06ab1328c07b14f3e09e34682f985bf1b1281aea8eef17ee854e7"
+    },
+    {
+      "path": "data/splits/primary/sarc_subreddit/val.parquet",
+      "bytes": 26525542,
+      "sha256": "e1dc725946ddb4bf3e8ddd2ae73b3be43b0163b7844710f9deae22e947ba5ecd"
+    },
+    {
+      "path": "data/splits/primary/sarc_temporal/test.parquet",
+      "bytes": 47530381,
+      "sha256": "cbbf533a92693b750ee9b1a13f5fddc3c6cf3578cab550e7815427c0791acb00"
+    },
+    {
+      "path": "data/splits/primary/sarc_temporal/train.parquet",
+      "bytes": 95764297,
+      "sha256": "a823de6c18c692290c87435787dab8156d165e847768be2dda4fa4e9d2627ad0"
+    },
+    {
+      "path": "data/splits/primary/sarc_temporal/train.tmp.parquet",
+      "bytes": 80900825,
+      "sha256": "21f26411a8ce211b00faf42d6a2a0e4e13fb9b28d806429ebfdb633c38de4a8c"
+    },
+    {
+      "path": "data/splits/primary/sarc_temporal/val.parquet",
+      "bytes": 35904744,
+      "sha256": "b1ad75bcf6a280afd06b9b0ee47e8afae45e77f289a2408ff6737e8681f3baf4"
+    },
+    {
+      "path": "data/splits/supplementary/figlang_reddit/test.parquet",
+      "bytes": 664374,
+      "sha256": "449de569c47921dc9681c061405b05ad235a6689c17527a569699ee5f0dc8923"
+    },
+    {
+      "path": "data/splits/supplementary/figlang_reddit/train.parquet",
+      "bytes": 740397,
+      "sha256": "c04ebbdbf477fed62555e4f1a9b0de12020f1e4972cc9e5def5354c01037456b"
+    },
+    {
+      "path": "data/splits/supplementary/figlang_reddit/val.parquet",
+      "bytes": 148095,
+      "sha256": "f612ac5dcbf71fb79bc842ff5b45b3ad9413c426894af2a682f5f2f21959335a"
+    },
+    {
+      "path": "data/splits/supplementary/figlang_twitter/test.parquet",
+      "bytes": 755188,
+      "sha256": "8f7a9f2632f7d90ac657185e1627e7970290c4cf1a5b56e3e828aae0e79f17fc"
+    },
+    {
+      "path": "data/splits/supplementary/figlang_twitter/train.parquet",
+      "bytes": 1879391,
+      "sha256": "f4226f0ab7402ac6981c95ceaacb5a3e8d8dd4b64a19a831309d9ced43097656"
+    },
+    {
+      "path": "data/splits/supplementary/figlang_twitter/val.parquet",
+      "bytes": 345095,
+      "sha256": "17b9e49e6cb7de318b9ecb47704e767b27d9094ae10d5748a77d10938a63625a"
+    },
+    {
+      "path": "data/splits/supplementary/news_headlines/test.parquet",
+      "bytes": 242720,
+      "sha256": "83ce6a04e02584e8e11cee6e40d5d92680dd6d6fb2f0758ceb6464548a07b27b"
+    },
+    {
+      "path": "data/splits/supplementary/news_headlines/train.parquet",
+      "bytes": 1058197,
+      "sha256": "ef056c95d95ea8d6e27cf83aaa3911042f0f6537fc7cfe96439a5feef90a912a"
+    },
+    {
+      "path": "data/splits/supplementary/news_headlines/val.parquet",
+      "bytes": 240660,
+      "sha256": "73304d6801bc1d7d52bd70a56ce24ada1d04fef27058a2c3f24f26191824db2b"
+    },
+    {
+      "path": "data/splits/supplementary/tweeteval_irony/test.parquet",
+      "bytes": 72016,
+      "sha256": "668dbbd92615d3c893008b9ceb6b96a66d6853d1478cbfee2584d7b9e0f5c09e"
+    },
+    {
+      "path": "data/splits/supplementary/tweeteval_irony/train.parquet",
+      "bytes": 210906,
+      "sha256": "a5e951677ccff86ae3f89b367c48059605e9f8718bf7a0209a7c2d4dd11e6ab2"
+    },
+    {
+      "path": "data/splits/supplementary/tweeteval_irony/val.parquet",
+      "bytes": 82121,
+      "sha256": "217bd2191d39dfd8f65cf7b9a75215ac8f18e600d45b701f1a762df429ca587e"
+    }
+  ]
+}

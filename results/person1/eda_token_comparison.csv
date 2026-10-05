@@ -1,0 +1,26 @@
+feature,weight,weight_kind,interpretation
+yeah,8.366850524459489,log_odds_coefficient,compare direction with supplied EDA
+because,8.308352230264632,log_odds_coefficient,compare direction with supplied EDA
+obviously,9.326419193372573,log_odds_coefficient,compare direction with supplied EDA
+all,2.2599029668607,log_odds_coefficient,compare direction with supplied EDA
+totally,8.982713185967494,log_odds_coefficient,compare direction with supplied EDA
+yes,3.01031026557701,log_odds_coefficient,compare direction with supplied EDA
+clearly,9.06076795521167,log_odds_coefficient,compare direction with supplied EDA
+we,2.1078752720813125,log_odds_coefficient,compare direction with supplied EDA
+right,3.982374450711784,log_odds_coefficient,compare direction with supplied EDA
+oh,1.4372997262564675,log_odds_coefficient,compare direction with supplied EDA
+so,2.1976328060975234,log_odds_coefficient,compare direction with supplied EDA
+should,3.364268371137176,log_odds_coefficient,compare direction with supplied EDA
+must,2.9219738898487986,log_odds_coefficient,compare direction with supplied EDA
+wow,4.598272939624895,log_odds_coefficient,compare direction with supplied EDA
+sure,6.314768514019568,log_odds_coefficient,compare direction with supplied EDA
+nah,4.328897401661152,log_odds_coefficient,compare direction with supplied EDA
+women,4.318197762771696,log_odds_coefficient,possible topic/community confound
+racist,5.003648265569668,log_odds_coefficient,possible topic/community confound
+white,1.837616111112586,log_odds_coefficient,possible topic/community confound
+it,-0.3952699743339156,log_odds_coefficient,compare direction with supplied EDA
+my,-0.6324785342862038,log_odds_coefficient,compare direction with supplied EDA
+or,-2.595836118695252,log_odds_coefficient,compare direction with supplied EDA
+think,-2.9472163547211867,log_odds_coefficient,compare direction with supplied EDA
+still,-2.4508240110443955,log_odds_coefficient,compare direction with supplied EDA
+also,-3.1266380691108395,log_odds_coefficient,compare direction with supplied EDA

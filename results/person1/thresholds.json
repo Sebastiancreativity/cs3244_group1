@@ -1,0 +1,8 @@
+{
+  "mnb_reply_tfidf": 0.5464574626932269,
+  "mnb_reply_tfidf_surface": 0.6003785784395138,
+  "cnb_reply_tfidf": 0.5374513882538567,
+  "cnb_reply_tfidf_surface": 0.5916430963114678,
+  "lr_reply_tfidf": 0.5224220047362785,
+  "lr_reply_tfidf_surface": 0.510237756212528
+}

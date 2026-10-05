@@ -1,0 +1,110 @@
+[
+  {
+    "model_id": "sarc_random__cnb_reply_tfidf",
+    "rows": 256,
+    "max_abs_probability_error": 8.770761894538737e-15,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_random__cnb_reply_tfidf_surface",
+    "rows": 256,
+    "max_abs_probability_error": 1.6764367671839864e-14,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_random__lr_reply_tfidf",
+    "rows": 256,
+    "max_abs_probability_error": 0.0,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_random__lr_reply_tfidf_surface",
+    "rows": 256,
+    "max_abs_probability_error": 0.0,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_random__mnb_reply_tfidf",
+    "rows": 256,
+    "max_abs_probability_error": 6.328271240363392e-15,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_random__mnb_reply_tfidf_surface",
+    "rows": 256,
+    "max_abs_probability_error": 1.2656542480726785e-14,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__cnb_reply_tfidf",
+    "rows": 256,
+    "max_abs_probability_error": 5.10702591327572e-15,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__cnb_reply_tfidf_surface",
+    "rows": 256,
+    "max_abs_probability_error": 2.142730437526552e-14,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__lr_reply_tfidf",
+    "rows": 256,
+    "max_abs_probability_error": 0.0,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__lr_reply_tfidf_surface",
+    "rows": 256,
+    "max_abs_probability_error": 0.0,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__mnb_reply_tfidf",
+    "rows": 256,
+    "max_abs_probability_error": 7.271960811294775e-15,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__mnb_reply_tfidf_surface",
+    "rows": 256,
+    "max_abs_probability_error": 2.220446049250313e-14,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__cnb_reply_tfidf",
+    "rows": 256,
+    "max_abs_probability_error": 1.0325074129013956e-14,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__cnb_reply_tfidf_surface",
+    "rows": 256,
+    "max_abs_probability_error": 1.4210854715202004e-14,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__lr_reply_tfidf",
+    "rows": 256,
+    "max_abs_probability_error": 0.0,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__lr_reply_tfidf_surface",
+    "rows": 256,
+    "max_abs_probability_error": 0.0,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__mnb_reply_tfidf",
+    "rows": 256,
+    "max_abs_probability_error": 7.66053886991358e-15,
+    "status": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__mnb_reply_tfidf_surface",
+    "rows": 256,
+    "max_abs_probability_error": 1.4432899320127035e-14,
+    "status": "PASS"
+  }
+]

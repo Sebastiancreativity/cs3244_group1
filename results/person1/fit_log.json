@@ -1,0 +1,158 @@
+[
+  {
+    "model_id": "sarc_random__mnb_reply_tfidf",
+    "fit_seconds": 0.0541447609939496,
+    "vectorizer_fit_seconds": 10.212169996004377,
+    "n_iter": [],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_random__mnb_reply_tfidf_surface",
+    "fit_seconds": 0.06823717700171983,
+    "vectorizer_fit_seconds": 10.212169996004377,
+    "n_iter": [],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_random__cnb_reply_tfidf",
+    "fit_seconds": 0.05588662200170802,
+    "vectorizer_fit_seconds": 10.212169996004377,
+    "n_iter": [],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_random__cnb_reply_tfidf_surface",
+    "fit_seconds": 0.06103117599559482,
+    "vectorizer_fit_seconds": 10.212169996004377,
+    "n_iter": [],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_random__lr_reply_tfidf",
+    "fit_seconds": 9.838026997997076,
+    "vectorizer_fit_seconds": 10.212169996004377,
+    "n_iter": [
+      6
+    ],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_random__lr_reply_tfidf_surface",
+    "fit_seconds": 66.79814831099793,
+    "vectorizer_fit_seconds": 10.212169996004377,
+    "n_iter": [
+      38
+    ],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__mnb_reply_tfidf",
+    "fit_seconds": 0.0409561729975394,
+    "vectorizer_fit_seconds": 8.264273759996286,
+    "n_iter": [],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__mnb_reply_tfidf_surface",
+    "fit_seconds": 0.050479960002121516,
+    "vectorizer_fit_seconds": 8.264273759996286,
+    "n_iter": [],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__cnb_reply_tfidf",
+    "fit_seconds": 0.04652934800105868,
+    "vectorizer_fit_seconds": 8.264273759996286,
+    "n_iter": [],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__cnb_reply_tfidf_surface",
+    "fit_seconds": 0.04542682499595685,
+    "vectorizer_fit_seconds": 8.264273759996286,
+    "n_iter": [],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__lr_reply_tfidf",
+    "fit_seconds": 5.789131787998485,
+    "vectorizer_fit_seconds": 8.264273759996286,
+    "n_iter": [
+      9
+    ],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__lr_reply_tfidf_surface",
+    "fit_seconds": 50.209583602998464,
+    "vectorizer_fit_seconds": 8.264273759996286,
+    "n_iter": [
+      46
+    ],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__mnb_reply_tfidf",
+    "fit_seconds": 0.05750073299714131,
+    "vectorizer_fit_seconds": 10.704858190998493,
+    "n_iter": [],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__mnb_reply_tfidf_surface",
+    "fit_seconds": 0.0707592199978535,
+    "vectorizer_fit_seconds": 10.704858190998493,
+    "n_iter": [],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__cnb_reply_tfidf",
+    "fit_seconds": 0.06228913900122279,
+    "vectorizer_fit_seconds": 10.704858190998493,
+    "n_iter": [],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__cnb_reply_tfidf_surface",
+    "fit_seconds": 0.0624784340034239,
+    "vectorizer_fit_seconds": 10.704858190998493,
+    "n_iter": [],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__lr_reply_tfidf",
+    "fit_seconds": 8.713397808998707,
+    "vectorizer_fit_seconds": 10.704858190998493,
+    "n_iter": [
+      6
+    ],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__lr_reply_tfidf_surface",
+    "fit_seconds": 65.8557668039939,
+    "vectorizer_fit_seconds": 10.704858190998493,
+    "n_iter": [
+      34
+    ],
+    "converged": true,
+    "roundtrip_prediction_check": "PASS"
+  }
+]

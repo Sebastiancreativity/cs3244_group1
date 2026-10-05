@@ -1,0 +1,234 @@
+[
+  {
+    "type": "false_positive",
+    "row_id": "5f5cd39d14fa165e76e36fe35f8f91aa",
+    "label": 0,
+    "probability": 0.9984525772862749,
+    "comment": "OHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH SHITTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT",
+    "intercept": 0.08194356679086624,
+    "largest_logit_contributions": [
+      {
+        "feature": "surface:avg_word_len",
+        "contribution": 7.548951959639035
+      },
+      {
+        "feature": "surface:n_sentences",
+        "contribution": -0.6225739048246308
+      },
+      {
+        "feature": "surface:n_chars",
+        "contribution": -0.46167734286179285
+      },
+      {
+        "feature": "surface:words_0_3",
+        "contribution": -0.43358364417813633
+      },
+      {
+        "feature": "surface:n_elongation",
+        "contribution": 0.3069029881726321
+      },
+      {
+        "feature": "surface:n_allcaps_words",
+        "contribution": 0.10938934431027923
+      },
+      {
+        "feature": "surface:allcaps_ratio",
+        "contribution": -0.05973709093882303
+      }
+    ]
+  },
+  {
+    "type": "false_positive",
+    "row_id": "fc2b7f01c8e2a7a670afb691f7da3e88",
+    "label": 0,
+    "probability": 0.998015089058951,
+    "comment": "Yes because voter fraud",
+    "intercept": 0.08194356679086624,
+    "largest_logit_contributions": [
+      {
+        "feature": "yes because",
+        "contribution": 2.788785914397256
+      },
+      {
+        "feature": "because",
+        "contribution": 1.6933924990182705
+      },
+      {
+        "feature": "yes",
+        "contribution": 0.8819550345664999
+      },
+      {
+        "feature": "surface:n_sentences",
+        "contribution": -0.6225739048246308
+      },
+      {
+        "feature": "fraud",
+        "contribution": 0.564812722768848
+      },
+      {
+        "feature": "voter",
+        "contribution": 0.43914209951078964
+      },
+      {
+        "feature": "voter fraud",
+        "contribution": 0.3606451314582666
+      },
+      {
+        "feature": "surface:avg_word_len",
+        "contribution": 0.3158557305288299
+      }
+    ]
+  },
+  {
+    "type": "false_positive",
+    "row_id": "f0f2c9becea76a6ed3f292c20a8172fe",
+    "label": 0,
+    "probability": 0.997202262874018,
+    "comment": "Yes, because that makes sense.",
+    "intercept": 0.08194356679086624,
+    "largest_logit_contributions": [
+      {
+        "feature": "yes because",
+        "contribution": 2.8292415100013426
+      },
+      {
+        "feature": "because",
+        "contribution": 1.7179577414722016
+      },
+      {
+        "feature": "yes",
+        "contribution": 0.8947491382785169
+      },
+      {
+        "feature": "surface:n_sentences",
+        "contribution": -0.6225739048246308
+      },
+      {
+        "feature": "because that",
+        "contribution": 0.48700401632821194
+      },
+      {
+        "feature": "that makes",
+        "contribution": 0.3605368668397305
+      },
+      {
+        "feature": "surface:avg_word_len",
+        "contribution": 0.3032215013076767
+      },
+      {
+        "feature": "surface:n_chars",
+        "contribution": -0.2890524676141685
+      }
+    ]
+  },
+  {
+    "type": "false_negative",
+    "row_id": "be7dfd974985aebe89ee59d51eb9fcf8",
+    "label": 1,
+    "probability": 0.0025126630468570287,
+    "comment": "Thirteenth, iirc",
+    "intercept": 0.08194356679086624,
+    "largest_logit_contributions": [
+      {
+        "feature": "iirc",
+        "contribution": -5.213397405205274
+      },
+      {
+        "feature": "surface:n_sentences",
+        "contribution": -0.6225739048246308
+      },
+      {
+        "feature": "surface:avg_word_len",
+        "contribution": 0.44219802274036185
+      },
+      {
+        "feature": "surface:words_0_3",
+        "contribution": -0.43358364417813633
+      },
+      {
+        "feature": "surface:n_chars",
+        "contribution": -0.23848292367170407
+      }
+    ]
+  },
+  {
+    "type": "false_negative",
+    "row_id": "892877f8d2f56ddd3ce4e69b900cc687",
+    "label": 1,
+    "probability": 0.004966715053611497,
+    "comment": "Lol wagie",
+    "intercept": 0.08194356679086624,
+    "largest_logit_contributions": [
+      {
+        "feature": "lol",
+        "contribution": -5.58616017578623
+      },
+      {
+        "feature": "surface:n_interjections",
+        "contribution": 0.6559962027921558
+      },
+      {
+        "feature": "surface:n_sentences",
+        "contribution": -0.6225739048246308
+      },
+      {
+        "feature": "surface:starts_with_interjection",
+        "contribution": 0.5454936653877271
+      },
+      {
+        "feature": "surface:words_0_3",
+        "contribution": -0.43358364417813633
+      },
+      {
+        "feature": "surface:avg_word_len",
+        "contribution": 0.2526845844230639
+      },
+      {
+        "feature": "surface:n_chars",
+        "contribution": -0.19381781683758967
+      }
+    ]
+  },
+  {
+    "type": "false_negative",
+    "row_id": "e61409ddc49f3b836f32eb3f8778810c",
+    "label": 1,
+    "probability": 0.007046727704608761,
+    "comment": "afaik tl;dr iirc",
+    "intercept": 0.08194356679086624,
+    "largest_logit_contributions": [
+      {
+        "feature": "iirc",
+        "contribution": -2.1546859351311487
+      },
+      {
+        "feature": "afaik",
+        "contribution": -1.451601138253414
+      },
+      {
+        "feature": "surface:n_sentences",
+        "contribution": -0.6225739048246308
+      },
+      {
+        "feature": "dr",
+        "contribution": -0.5448128567393989
+      },
+      {
+        "feature": "surface:n_chars",
+        "contribution": -0.23848292367170407
+      },
+      {
+        "feature": "surface:avg_word_len",
+        "contribution": 0.20530622484373942
+      },
+      {
+        "feature": "tl",
+        "contribution": -0.15000878754160404
+      },
+      {
+        "feature": "tl dr",
+        "contribution": -0.05694958137079042
+      }
+    ]
+  }
+]
