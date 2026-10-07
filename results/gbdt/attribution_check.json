@@ -1,0 +1,30 @@
+{
+  "model": "sarc_random__xgb_reply_tfidf_surface",
+  "rows": 10000,
+  "spearman_mean_abs_top200": 0.9829850746268658,
+  "top20_overlap": 17,
+  "top10_treeshap": [
+    "n_exclam",
+    "n_interjections",
+    "n_words",
+    "avg_word_len",
+    "n_chars",
+    "tok:because",
+    "starts_with_interjection",
+    "tok:but",
+    "tok:so",
+    "tok:all"
+  ],
+  "top10_saabas": [
+    "n_interjections",
+    "n_exclam",
+    "n_words",
+    "avg_word_len",
+    "n_chars",
+    "tok:because",
+    "starts_with_interjection",
+    "tok:but",
+    "tok:so",
+    "tok:the"
+  ]
+}

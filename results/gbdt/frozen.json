@@ -1,0 +1,34 @@
+{
+  "lgbm_reply_tfidf": {
+    "n_trees": 1224,
+    "threshold": 0.5160963697479156
+  },
+  "lgbm_reply_tfidf_surface": {
+    "n_trees": 1041,
+    "threshold": 0.49866136939099753
+  },
+  "lgbm_reply_tfidf_surface_context": {
+    "n_trees": 1072,
+    "threshold": 0.500503482734321
+  },
+  "lgbm_reply_tfidf_surface_subreddit": {
+    "n_trees": 1284,
+    "threshold": 0.48794914713873716
+  },
+  "xgb_reply_tfidf": {
+    "n_trees": 7240,
+    "threshold": 0.5032364130020142
+  },
+  "xgb_reply_tfidf_surface": {
+    "n_trees": 7901,
+    "threshold": 0.4927029013633728
+  },
+  "xgb_reply_tfidf_surface_context": {
+    "n_trees": 5159,
+    "threshold": 0.4924575686454773
+  },
+  "xgb_reply_tfidf_surface_subreddit": {
+    "n_trees": 7022,
+    "threshold": 0.48661816120147705
+  }
+}

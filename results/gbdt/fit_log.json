@@ -1,0 +1,231 @@
+[
+  {
+    "model_id": "sarc_random__lgbm_reply_tfidf",
+    "fit_seconds": 236.16926440000043,
+    "feature_seconds": 19.709802900000795,
+    "n_trees": 1224,
+    "n_features": 20000,
+    "device": "cpu",
+    "early_stopped_on": "sarc_random/val",
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_random__lgbm_reply_tfidf_surface",
+    "fit_seconds": 202.1897273000004,
+    "feature_seconds": 18.386955499999203,
+    "n_trees": 1041,
+    "n_features": 20017,
+    "device": "cpu",
+    "early_stopped_on": "sarc_random/val",
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_random__lgbm_reply_tfidf_surface_context",
+    "fit_seconds": 357.68285430000014,
+    "feature_seconds": 56.99363369999992,
+    "n_trees": 1072,
+    "n_features": 25022,
+    "device": "cpu",
+    "early_stopped_on": "sarc_random/val",
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_random__lgbm_reply_tfidf_surface_subreddit",
+    "fit_seconds": 236.99839809999958,
+    "feature_seconds": 21.831246499999907,
+    "n_trees": 1284,
+    "n_features": 20019,
+    "device": "cpu",
+    "early_stopped_on": "sarc_random/val",
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_random__xgb_reply_tfidf",
+    "fit_seconds": 204.73514999999952,
+    "feature_seconds": 23.480131399999664,
+    "n_trees": 7240,
+    "n_features": 20000,
+    "device": "cuda",
+    "early_stopped_on": "sarc_random/val",
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_random__xgb_reply_tfidf_surface",
+    "fit_seconds": 240.05115589999969,
+    "feature_seconds": 24.043451399999867,
+    "n_trees": 7901,
+    "n_features": 20017,
+    "device": "cuda",
+    "early_stopped_on": "sarc_random/val",
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_random__xgb_reply_tfidf_surface_context",
+    "fit_seconds": 241.42437700000028,
+    "feature_seconds": 74.24879499999952,
+    "n_trees": 5159,
+    "n_features": 25022,
+    "device": "cuda",
+    "gpu_memory_peak_mib": 6577,
+    "early_stopped_on": "sarc_random/val",
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_random__xgb_reply_tfidf_surface_subreddit",
+    "fit_seconds": 219.5874143000001,
+    "feature_seconds": 29.91242349999993,
+    "n_trees": 7022,
+    "n_features": 20019,
+    "device": "cuda",
+    "gpu_memory_peak_mib": 4404,
+    "early_stopped_on": "sarc_random/val",
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__lgbm_reply_tfidf",
+    "fit_seconds": 198.85882739999943,
+    "feature_seconds": 18.11602429999948,
+    "n_trees": 1224,
+    "n_features": 20000,
+    "device": "cpu",
+    "early_stopped_on": null,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__lgbm_reply_tfidf_surface",
+    "fit_seconds": 177.8246605000004,
+    "feature_seconds": 18.1090621000003,
+    "n_trees": 1041,
+    "n_features": 20017,
+    "device": "cpu",
+    "early_stopped_on": null,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__lgbm_reply_tfidf_surface_context",
+    "fit_seconds": 335.4644535000007,
+    "feature_seconds": 56.9707729999991,
+    "n_trees": 1072,
+    "n_features": 25022,
+    "device": "cpu",
+    "early_stopped_on": null,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__lgbm_reply_tfidf_surface_subreddit",
+    "fit_seconds": 214.70625690000088,
+    "feature_seconds": 21.583639000000403,
+    "n_trees": 1284,
+    "n_features": 20019,
+    "device": "cpu",
+    "early_stopped_on": null,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__xgb_reply_tfidf",
+    "fit_seconds": 185.3270537999997,
+    "feature_seconds": 19.87767509999867,
+    "n_trees": 7240,
+    "n_features": 20000,
+    "device": "cuda",
+    "gpu_memory_peak_mib": 3762,
+    "early_stopped_on": null,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__xgb_reply_tfidf_surface",
+    "fit_seconds": 231.4542003000006,
+    "feature_seconds": 19.140861299998505,
+    "n_trees": 7901,
+    "n_features": 20017,
+    "device": "cuda",
+    "gpu_memory_peak_mib": 4402,
+    "early_stopped_on": null,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__xgb_reply_tfidf_surface_context",
+    "fit_seconds": 248.781740800001,
+    "feature_seconds": 77.65479109999978,
+    "n_trees": 5159,
+    "n_features": 25022,
+    "device": "cuda",
+    "gpu_memory_peak_mib": 6289,
+    "early_stopped_on": null,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_subreddit__xgb_reply_tfidf_surface_subreddit",
+    "fit_seconds": 209.82525560000067,
+    "feature_seconds": 32.07122619999973,
+    "n_trees": 7022,
+    "n_features": 20019,
+    "device": "cuda",
+    "gpu_memory_peak_mib": 4223,
+    "early_stopped_on": null,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__lgbm_reply_tfidf",
+    "fit_seconds": 186.53871809999964,
+    "feature_seconds": 14.039558600000419,
+    "n_trees": 1224,
+    "n_features": 20000,
+    "device": "cpu",
+    "early_stopped_on": null,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__lgbm_reply_tfidf_surface",
+    "fit_seconds": 165.45974489999935,
+    "feature_seconds": 14.457079700000577,
+    "n_trees": 1041,
+    "n_features": 20017,
+    "device": "cpu",
+    "early_stopped_on": null,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__lgbm_reply_tfidf_surface_context",
+    "fit_seconds": 305.8561881000005,
+    "feature_seconds": 42.49659969999993,
+    "n_trees": 1072,
+    "n_features": 25022,
+    "device": "cpu",
+    "early_stopped_on": null,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__xgb_reply_tfidf",
+    "fit_seconds": 159.6749660000005,
+    "feature_seconds": 18.498476899999332,
+    "n_trees": 7240,
+    "n_features": 20000,
+    "device": "cuda",
+    "gpu_memory_peak_mib": 3250,
+    "early_stopped_on": null,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__xgb_reply_tfidf_surface",
+    "fit_seconds": 190.89642739999908,
+    "feature_seconds": 18.399586100000306,
+    "n_trees": 7901,
+    "n_features": 20017,
+    "device": "cuda",
+    "gpu_memory_peak_mib": 3914,
+    "early_stopped_on": null,
+    "roundtrip_prediction_check": "PASS"
+  },
+  {
+    "model_id": "sarc_temporal__xgb_reply_tfidf_surface_context",
+    "fit_seconds": 197.8227564000008,
+    "feature_seconds": 56.37853089999953,
+    "n_trees": 5159,
+    "n_features": 25022,
+    "device": "cuda",
+    "gpu_memory_peak_mib": 5822,
+    "early_stopped_on": null,
+    "roundtrip_prediction_check": "PASS"
+  }
+]

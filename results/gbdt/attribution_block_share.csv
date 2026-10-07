@@ -1,0 +1,5 @@
+model,attribution,block,mean_abs_attr_share
+xgb,treeshap,surface,0.1958141028881073
+xgb,treeshap,text,0.8041859269142151
+lgbm,saabas,surface,0.1827288670750778
+lgbm,saabas,text,0.8172711329249223

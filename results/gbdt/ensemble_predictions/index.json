@@ -1,0 +1,135 @@
+[
+  {
+    "dataset": "figlang_reddit",
+    "split": "test",
+    "file": "figlang_reddit__test.parquet",
+    "rows": 1756,
+    "prediction_columns": [
+      "sarc_random__lgbm_reply_tfidf",
+      "sarc_random__lgbm_reply_tfidf_surface",
+      "sarc_random__xgb_reply_tfidf",
+      "sarc_random__xgb_reply_tfidf_surface"
+    ]
+  },
+  {
+    "dataset": "figlang_twitter",
+    "split": "test",
+    "file": "figlang_twitter__test.parquet",
+    "rows": 1715,
+    "prediction_columns": [
+      "sarc_random__lgbm_reply_tfidf",
+      "sarc_random__lgbm_reply_tfidf_surface",
+      "sarc_random__xgb_reply_tfidf",
+      "sarc_random__xgb_reply_tfidf_surface"
+    ]
+  },
+  {
+    "dataset": "news_headlines",
+    "split": "test",
+    "file": "news_headlines__test.parquet",
+    "rows": 4257,
+    "prediction_columns": [
+      "sarc_random__lgbm_reply_tfidf",
+      "sarc_random__lgbm_reply_tfidf_surface",
+      "sarc_random__xgb_reply_tfidf",
+      "sarc_random__xgb_reply_tfidf_surface"
+    ]
+  },
+  {
+    "dataset": "sarc_random",
+    "split": "test",
+    "file": "sarc_random__test.parquet",
+    "rows": 137065,
+    "prediction_columns": [
+      "sarc_random__lgbm_reply_tfidf",
+      "sarc_random__lgbm_reply_tfidf_surface",
+      "sarc_random__xgb_reply_tfidf",
+      "sarc_random__xgb_reply_tfidf_surface"
+    ]
+  },
+  {
+    "dataset": "sarc_random",
+    "split": "val",
+    "file": "sarc_random__val.parquet",
+    "rows": 137066,
+    "prediction_columns": [
+      "sarc_random__lgbm_reply_tfidf",
+      "sarc_random__lgbm_reply_tfidf_surface",
+      "sarc_random__xgb_reply_tfidf",
+      "sarc_random__xgb_reply_tfidf_surface"
+    ]
+  },
+  {
+    "dataset": "sarc_subreddit",
+    "split": "test",
+    "file": "sarc_subreddit__test.parquet",
+    "rows": 135534,
+    "prediction_columns": [
+      "sarc_subreddit__lgbm_reply_tfidf",
+      "sarc_subreddit__lgbm_reply_tfidf_surface",
+      "sarc_subreddit__xgb_reply_tfidf",
+      "sarc_subreddit__xgb_reply_tfidf_surface"
+    ]
+  },
+  {
+    "dataset": "sarc_subreddit",
+    "split": "val",
+    "file": "sarc_subreddit__val.parquet",
+    "rows": 135123,
+    "prediction_columns": [
+      "sarc_subreddit__lgbm_reply_tfidf",
+      "sarc_subreddit__lgbm_reply_tfidf_surface",
+      "sarc_subreddit__xgb_reply_tfidf",
+      "sarc_subreddit__xgb_reply_tfidf_surface"
+    ]
+  },
+  {
+    "dataset": "sarc_temporal",
+    "split": "test",
+    "file": "sarc_temporal__test.parquet",
+    "rows": 242091,
+    "prediction_columns": [
+      "sarc_temporal__lgbm_reply_tfidf",
+      "sarc_temporal__lgbm_reply_tfidf_surface",
+      "sarc_temporal__xgb_reply_tfidf",
+      "sarc_temporal__xgb_reply_tfidf_surface"
+    ]
+  },
+  {
+    "dataset": "sarc_temporal",
+    "split": "val",
+    "file": "sarc_temporal__val.parquet",
+    "rows": 182441,
+    "prediction_columns": [
+      "sarc_temporal__lgbm_reply_tfidf",
+      "sarc_temporal__lgbm_reply_tfidf_surface",
+      "sarc_temporal__xgb_reply_tfidf",
+      "sarc_temporal__xgb_reply_tfidf_surface"
+    ]
+  },
+  {
+    "dataset": "tweeteval_irony",
+    "split": "test",
+    "file": "tweeteval_irony__test.parquet",
+    "rows": 780,
+    "prediction_columns": [
+      "sarc_random__lgbm_reply_tfidf",
+      "sarc_random__lgbm_reply_tfidf_surface",
+      "sarc_random__xgb_reply_tfidf",
+      "sarc_random__xgb_reply_tfidf_surface"
+    ]
+  },
+  {
+    "dataset": "sarc_random",
+    "split": "train_oof",
+    "file": "sarc_random__train_oof.parquet",
+    "rows": 639638,
+    "prediction_columns": [
+      "sarc_random__xgb_reply_tfidf",
+      "sarc_random__lgbm_reply_tfidf",
+      "sarc_random__xgb_reply_tfidf_surface",
+      "sarc_random__lgbm_reply_tfidf_surface"
+    ],
+    "note": "5-fold GroupKFold(parent_key) out-of-fold predictions for stacking"
+  }
+]
